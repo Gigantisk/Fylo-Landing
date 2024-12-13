@@ -1,0 +1,126 @@
+@use '../util' as u;
+
+@media (max-width:736px) {
+    .upper-container {
+        h1 {
+            font-size: u.rem(26);
+            line-height: u.rem(38);
+        }
+        p{
+            margin-bottom: u.rem(35);
+        }
+    }
+    .middle-container__left {
+        h1 {
+            font-size: u.rem(20);
+            text-align: center;
+            margin-bottom: u.rem(30);
+        }
+    }
+    .middle-container__quote {
+        &__bottom {
+            h3 {
+                font-size: u.rem(14);
+            }
+        }
+    }
+    .up-bottom-container {
+        h3 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin-left: u.rem(30);
+            margin-right: u.rem(30);
+        }
+    }
+    .collumn2-link {
+        a {
+            margin-bottom: u.rem(16);
+        }
+    }
+}
+
+@media (min-width: 737px) {
+    .upper-container {
+        h1 {
+            max-width: u.rem(580);
+            line-height: u.rem(54);
+            font-size: u.rem(36);
+        }
+    }
+    .middle-container__left {
+        h1 {
+            font-size: u.rem(36);
+        }
+        p {
+            max-width: u.rem(550);
+        }
+    }
+    .middle-container__quote {    
+        &__bottom {
+            h3 {
+                font-size: u.rem(16);                
+            }
+        }
+    }
+    .up-bottom-container {
+        p {
+            max-width: u.rem(490);
+        }
+    } 
+    .collumn2-link {
+        a {
+            margin-bottom: u.rem(16);
+        }
+    }     
+}
+
+
+h1, h2, h3 {
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+    font-size: u.rem(16);
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
+
+.upper-container__left__p {
+    max-width: u.rem(580);
+}
+
+.middle-container__left {
+    a {
+        color: hsl(170, 45%, 43%);
+        margin-right: u.rem(4);
+    }
+}
+.middle-container__quote {
+    p {
+        font-size: u.rem(14);
+        line-height: u.rem(24);
+        margin-bottom: u.rem(14);
+    }
+    &__bottom {
+        p {
+            font-size: u.rem(12);
+            margin-bottom: 0;
+        }
+        h3 {
+            margin-bottom: u.rem(4);
+        }
+    }
+}
+
+.down-bottom-container__flex {
+    a {
+        margin: 0;        
+    }
+}
