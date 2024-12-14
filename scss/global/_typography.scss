@@ -34,11 +34,7 @@
             margin-right: u.rem(30);
         }
     }
-    .collumn2-link {
-        a {
-            margin-bottom: u.rem(16);
-        }
-    }
+
 }
 
 @media (min-width: 737px) {
@@ -69,11 +65,7 @@
             max-width: u.rem(490);
         }
     } 
-    .collumn2-link {
-        a {
-            margin-bottom: u.rem(16);
-        }
-    }     
+      
 }
 
 
@@ -122,5 +114,11 @@ a, a:visited, a:active {
 .down-bottom-container__flex {
     a {
         margin: 0;        
+    }
+}
+
+.collumn2-link {
+    a {
+        margin-bottom: u.rem(16);
     }
 }

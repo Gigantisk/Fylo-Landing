@@ -42,9 +42,6 @@ header {
     margin-left: 1.875rem;
     margin-right: 1.875rem;
   }
-  .collumn2-link a {
-    margin-bottom: 1rem;
-  }
 }
 @media (min-width: 737px) {
   .upper-container h1 {
@@ -63,9 +60,6 @@ header {
   }
   .up-bottom-container p {
     max-width: 30.625rem;
-  }
-  .collumn2-link a {
-    margin-bottom: 1rem;
   }
 }
 h1, h2, h3 {
@@ -107,6 +101,10 @@ a, a:visited, a:active {
 
 .down-bottom-container__flex a {
   margin: 0;
+}
+
+.collumn2-link a {
+  margin-bottom: 1rem;
 }
 
 /* --nom-background-color, --nom-text-color */
